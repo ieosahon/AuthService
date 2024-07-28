@@ -1,0 +1,35 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "https://localhost:1942;http://localhost:1943",
+      "sslPort": 44311
+    }
+  },
+  "profiles": {
+    "AuthenticationApi": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7190;http://localhost:5296",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        //"DbConnection": "Server=IEOSAHON\\SQLEXPRESS;Database=AuthService;user id=sa;password=ieosaHoN*12;MultipleActiveResultSets=true;Encrypt=True;TrustServerCertificate=True;"
+        "DbConnection": "UserID=postgres;Password=ieosaHoN*12;Host=localhost;Port=5432;Database=AuthService;IntegratedSecurity=true;Pooling=true;"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        //"DbConnection": "Server=IEOSAHON\\SQLEXPRESS;Database=AuthService;user id=sa;password=ieosaHoN*12;MultipleActiveResultSets=true;Encrypt=True;TrustServerCertificate=True;"
+        "DbConnection": "UserID=postgres;Password=ieosaHoN*12;Host=localhost;Port=5432;Database=AuthService;IntegratedSecurity=true;Pooling=true;"
+      }
+    }
+  }
+}

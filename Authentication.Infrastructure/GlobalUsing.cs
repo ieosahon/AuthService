@@ -1,0 +1,13 @@
+﻿global using System.Text;
+global using Authentication.Application.Contracts.UtilityContracts;
+global using Authentication.Application.DTOs.ResponseDto;
+global using Authentication.Domain.Enums;
+global using Newtonsoft.Json;
+global using Serilog;
+global using Authentication.Application.Contracts.ExternalServicesContract;
+global using Authentication.Application.DTOs.RequestDto;
+global using Microsoft.Extensions.Configuration;
+global using Authentication.Infrastructure.ExternalServiceImplementation;
+global using Authentication.Infrastructure.UtilityImplementation;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Net;

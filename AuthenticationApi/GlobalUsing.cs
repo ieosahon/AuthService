@@ -1,0 +1,10 @@
+﻿global using Authentication.Persistence;
+global using Authentication.Application.DTOs.ResponseDto;
+global using Microsoft.AspNetCore.Mvc;
+global using Authentication.Infrastructure;
+global using Authentication.Application.DTOs.RequestDto;
+global using Authentication.Application.Features.User.Command;
+global using MediatR;
+global using Authentication.Application;
+global using Serilog;
+global using Authentication.Application.DataValidation;

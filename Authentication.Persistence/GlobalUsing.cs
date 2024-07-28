@@ -1,0 +1,11 @@
+﻿global using Authentication.Domain.Models;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Authentication.Persistence.Configurations;
+global using Authentication.Persistence.DataBaseContext;
+global using Microsoft.Extensions.DependencyInjection;
+global using Authentication.Application.Contracts.RepositoryContracts;
+global using System.Collections;
+global using System.Linq.Expressions;
+global using Authentication.Persistence.RepositoryImplementation;
+global using Microsoft.Extensions.Configuration;
